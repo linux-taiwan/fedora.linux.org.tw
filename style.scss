@@ -1,7 +1,6 @@
 $primary-color: #3c6eb4;
 
 body {
-	font-family: 'Comfortaa', sans-sefif;
 	margin: 0;
 	background-color: #E6E6E6;
 	color: #333;
@@ -16,21 +15,55 @@ body > header {
 	background-color: #fff;
 }
 
-#header h1 {
-	color: $primary-color;
-	line-height: 36px;
-	font-size: 1em;
-	margin: 0;
-	text-transform: uppercase;
-	&:before {
-		content: '';
-		display: inline-block;
-		background-image: url('logo.svg');
-		background-size: 36px 36px;
-		width: 36px;
-		height: 36px;
-		margin-right: .3em;
-		vertical-align: top;
+#header {
+	position: relative;
+	h1 {
+		font-family: 'Comfortaa', sans-sefif;
+		color: $primary-color;
+		line-height: 36px;
+		font-size: 1em;
+		margin: 0;
+		text-transform: uppercase;
+		&:before {
+			content: '';
+			display: inline-block;
+			background-image: url('logo.svg');
+			background-size: 36px 36px;
+			width: 36px;
+			height: 36px;
+			margin-right: .3em;
+			vertical-align: top;
+		}
+	}
+	.social {
+		position: absolute;
+		top: 3px;
+		right: 0;
+		line-height: 36px;
+		a {
+			width: 30px;
+			height: 36px;
+			display: inline-block;
+			overflow: hidden;
+			color: #fff;
+			text-decoration: none;
+		}
+		a::before {
+			display: inline-block;
+			height: 30px;
+			width: 30px;
+			text-align: center;
+			font-size: 26px;
+			line-height: 30px;
+			border-radius: .3em;
+			background-color: $primary-color;
+		}
+		a.facebook::before {
+			content: 'f';
+		}
+		a.plus::before {
+			content: '+';
+		}
 	}
 }
 
@@ -59,4 +92,37 @@ body > header {
 		color: #fcf7d5;
 		text-shadow: 1.5px 1.5px black;
 	}
+}
+
+main {
+	background-color: #fff;
+	padding: 1em;
+}
+
+footer {
+	font-size: small;
+	color: #808080;
+	p {
+		margin: .5em 0;
+	}
+	a {
+		color: #3771c8;
+		text-decoration: none;
+	}
+	.license {
+		float: right;
+	}
+}
+
+footer:before {
+	content: '';
+	display: block;
+	height: 20px;
+	clear: both;
+	background-color: #4870bc;
+	background-image: linear-gradient(to right, rgba(255,255,255,.07) 50%, transparent 50%),
+		linear-gradient(to right, rgba(255,255,255,.13) 50%, transparent 50%),
+		linear-gradient(to right, transparent 50%, rgba(255,255,255,.17) 50%),
+		linear-gradient(to right, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 26px, 58px, 74px, 106px;
 }
