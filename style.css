@@ -32,7 +32,7 @@ body > header {
   #header .social {
     position: absolute;
     top: 6px;
-    right: 0;
+    right: 6px;
     line-height: 36px; }
     #header .social a {
       width: 32px;
@@ -40,7 +40,11 @@ body > header {
       display: inline-block;
       overflow: hidden;
       color: #fff;
-      text-decoration: none; }
+      text-decoration: none;
+      opacity: 0.5;
+      margin-left: -4px; }
+    #header .social a:hover {
+      opacity: 1; }
     #header .social a::before {
       display: inline-block;
       height: 32px;
@@ -124,14 +128,16 @@ main {
 
 footer {
   font-size: small;
-  color: #808080; }
+  color: #808080;
+  padding-bottom: 1em; }
   footer p {
     margin: .5em 0; }
   footer a {
     color: #3771c8;
     text-decoration: none; }
   footer .license {
-    float: right; }
+    float: right;
+    opacity: 0.5; }
 
 footer:before {
   content: '';

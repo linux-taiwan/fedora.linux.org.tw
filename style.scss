@@ -39,7 +39,7 @@ body > header {
 	.social {
 		position: absolute;
 		top: 6px;
-		right: 0;
+		right: 6px;
 		line-height: 36px;
 		a {
 			width: 32px;
@@ -48,6 +48,11 @@ body > header {
 			overflow: hidden;
 			color: #fff;
 			text-decoration: none;
+			opacity: 0.5;
+			margin-left: -4px;
+		}
+		a:hover {
+			opacity: 1;
 		}
 		a::before {
 			display: inline-block;
@@ -156,6 +161,7 @@ main {
 footer {
 	font-size: small;
 	color: #808080;
+	padding-bottom: 1em;
 	p {
 		margin: .5em 0;
 	}
@@ -165,6 +171,7 @@ footer {
 	}
 	.license {
 		float: right;
+		opacity: 0.5;
 	}
 }
 
