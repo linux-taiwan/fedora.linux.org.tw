@@ -25,7 +25,8 @@ module.exports = function(grunt) {
                 }
             },
             livereload: {
-                files: ['*.html'],
+                files: ['**/*.shtml'],
+				tasks: ['copy', 'ssi'],
                 options: {
                     livereload: true
                 }
@@ -60,6 +61,26 @@ module.exports = function(grunt) {
         },
         concurrent: {
             build: ['sass']
+        },
+        copy: {
+            main: {
+				files: [{
+					expand: true,
+					cwd: './',
+					src: '*.shtml',
+					dest: './',
+					rename: function(dest, matchedSrcPath) {
+						return dest + matchedSrcPath.slice(0, -5) + 'html';
+					}
+				}]
+            }
+        },
+        ssi: {
+            options: {
+                input: './',
+                output: './',
+                matcher: '*.html'
+            }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-sass');
@@ -70,6 +91,14 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-concurrent');
-    grunt.registerTask('default', ['connect', 'watch']);
+	grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.registerTask('ssi', 'Flatten SSI includes in your HTML files.', function() {
+        var ssi = require( 'ssi' )
+                , opts = this.options()
+                , files = new ssi( opts.input, opts.output, opts.matcher )
+                ;
+        files.compile();
+        });
+    grunt.registerTask('default', ['copy', 'ssi', 'connect', 'watch']);
     grunt.registerTask('build', ['imagemin', 'cssmin', 'csslint']);
 };

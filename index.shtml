@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fedora Linux 臺灣社群支援站</title>
+	<link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css'>
+	<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+	<!--#include virtual="partials/header.shtml" -->
+	<main>
+		<div id="content" class="wrapper">
+			<p class="slogan">
+				開源世界最先進的作業系統！<br>
+				Fedora 20 於2013年12月17日發行！
+			</p>
+			<div class="banner">
+			<a href="http://fedoraproject.org/zh_TW/get-fedora"><img alt="Fedora 20 Heisenbug is here!" src="http://fedoraproject.org/static/images/banners/f20release.png"></a>
+			</div>
+		</div>
+	</main>
+	<!--#include virtual="partials/footer.shtml" -->
+</body>
+</html>
