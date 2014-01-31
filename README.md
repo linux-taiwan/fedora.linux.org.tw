@@ -12,7 +12,6 @@ Dependency
 ----------
 * [marked](https://github.com/chjj/marked) as Markdown converter
 * [page.js](https://github.com/visionmedia/page.js) as path router
-* 
 
 nginx configuration
 --------------------
