@@ -6,29 +6,30 @@
 			window.location.replace('/');
 		}
 		function get(context) {
-			var xhr = new XMLHttpRequest();
-			xhr.open('GET', '/contents' + context.pathname + '.md');
-			xhr.onload = function(event) {
-				var data = xhr.responseText;
+			request('/contents' + context.pathname + '.md', function(data){
 				if (data.length == 0) // placeholder, render HTML
 					window.location.replace(context.pathname);
 				else if (/^\<\!doctype\ html\>/i.test(data)) // default page
 					loss();
 				else
 					document.querySelector('#content').innerHTML = marked(data);
-			}
-			xhr.onerror = function(event) {
-				loss();
-			}
-			xhr.send();
+			}, loss);
 		}
 		function loss() {
 			document.querySelector('#content').textContent = 'NOT FOUND';
 		}
-		if (['/',
-			'/guide',
-			'/tutorial',
-			'/community'].indexOf(window.location.pathname) < 0)
+		function request(url, load, error) {
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', url);
+			xhr.onload = function(event) {
+				load(xhr.responseText);
+			}
+			xhr.onerror = function(event) {
+				error();
+			}
+			xhr.send();
+		}
+		if (document.querySelector('#default'))
 			page();
 		else
 			page({dispatch: false});

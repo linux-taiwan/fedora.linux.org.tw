@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 	<title>Fedora Linux 臺灣社群支援站</title>
 <!--#include virtual="partials/meta.shtml" -->
 </head>
@@ -9,7 +9,7 @@
 <!--#include virtual="partials/header.shtml" -->
 	<main>
 		<div id="content" class="wrapper">
-		Loading&hellip;
+			<p id="default">Loading&hellip;</p>
 		</div>
 	</main>
 <!--#include virtual="partials/footer.shtml" -->
