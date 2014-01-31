@@ -3,16 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<title>文件 - Fedora Linux 臺灣社群支援站</title>
-	<link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css'>
-	<link href="style.css" rel="stylesheet"/>
+<!--#include virtual="partials/meta.shtml" -->
 </head>
 <body>
-	<!--#include virtual="partials/header.shtml" -->
+<!--#include virtual="partials/header.shtml" -->
 	<main>
 		<div id="content" class="wrapper">
-			<p>Work in progress&hellip;</p>
+			<p>新手一定要會的就是怎麼關掉<a href="tutorial/selinux">SELinux</a>啊！</p>
 		</div>
 	</main>
-	<!--#include virtual="partials/footer.shtml" -->
+<!--#include virtual="partials/footer.shtml" -->
 </body>
 </html>

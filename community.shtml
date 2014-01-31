@@ -3,11 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>社群 - Fedora Linux 臺灣社群支援站</title>
-	<link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css'>
-	<link href="style.css" rel="stylesheet"/>
+<!--#include virtual="partials/meta.shtml" -->
 </head>
 <body>
-	<!--#include virtual="partials/header.shtml" -->
+<!--#include virtual="partials/header.shtml" -->
 	<main>
 		<div id="content" class="wrapper">
 			<ul id="members">
@@ -35,6 +34,6 @@
 			</ul>
 		</div>
 	</main>
-	<!--#include virtual="partials/footer.shtml" -->
+<!--#include virtual="partials/footer.shtml" -->
 </body>
 </html>

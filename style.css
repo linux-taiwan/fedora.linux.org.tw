@@ -89,6 +89,9 @@ main {
   main article img {
     max-width: 100%; }
 
+#content {
+  min-height: 150px; }
+
 #members {
   padding: 0;
   margin: 0;

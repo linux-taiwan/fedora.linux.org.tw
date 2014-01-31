@@ -24,6 +24,12 @@ module.exports = function(grunt) {
                     livereload: true
                 }
             },
+			markdown: {
+				files: ['contents/**/*.md'],
+				options: {
+                    livereload: true
+                }
+			},
             livereload: {
                 files: ['**/*.shtml'],
 				tasks: ['copy', 'ssi'],
@@ -35,7 +41,21 @@ module.exports = function(grunt) {
         connect: {
             server: {
                 options: {
-                    hostname: '*'
+                    hostname: '*',
+					middleware: function(connect, options) {
+						return [
+							connect.static(options.base),
+							function(req, res) {
+								var filename = '.' + req.url + '.html';
+								var filename2 = '.' + req.url + '.md';
+								if (grunt.file.exists(filename))
+									res.end(grunt.file.read(filename));
+								else if (grunt.file.exists(filename2))
+									res.end(grunt.file.read(filename2));
+								else
+									res.end(grunt.file.read('default.html'));
+						}];
+					}
                 }
             }
         },
