@@ -8,8 +8,8 @@
 <body>
 <!--#include virtual="partials/header.shtml" -->
 	<main>
-		<div id="content" class="wrapper">
-			<p id="default">Loading&hellip;</p>
+		<div id="content" class="wrapper page">
+			<p>Loading&hellip;</p>
 		</div>
 	</main>
 <!--#include virtual="partials/footer.shtml" -->

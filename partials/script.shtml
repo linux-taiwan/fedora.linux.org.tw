@@ -1,22 +1,42 @@
 	<script>
-		page('/', index);
 		page('*', get);
+
+		var target = document.querySelector('#content');
 
 		function index(context) {
 			window.location.replace('/');
 		}
+
+		function init(context) {
+			context.state.content = target.innerHTML;
+			target.classList.add('page');
+		}
 		function get(context) {
-			request('/contents' + context.pathname + '.md', function(data){
-				if (data.length == 0) // placeholder, render HTML
-					window.location.replace(context.pathname);
-				else if (/^\<\!doctype\ html\>/i.test(data)) // default page
-					loss();
-				else
-					document.querySelector('#content').innerHTML = marked(data);
-			}, loss);
+			if (context.state.content) {
+				render(context.state.content);
+			} else if (target.classList.contains('page') && context.pathname == '/') {
+				window.location.replace('/');
+			} else if (target.classList.contains('page') && context.pathname !== '/') {
+				request('/contents' + context.pathname + '.md', function(data){
+					if (data.length == 0) // placeholder, render HTML
+						window.location.replace(context.pathname);
+					else if (/^\<\!doctype\ html\>/i.test(data)) // default page
+						loss();
+					else {
+						context.state.content = marked(data);
+						context.save();
+						render(context.state.content);
+					}
+				}, loss);
+			} else {
+				init(context);
+			}
+		}
+		function render(html) {
+			target.innerHTML = html;
 		}
 		function loss() {
-			document.querySelector('#content').textContent = 'NOT FOUND';
+			target.textContent = 'NOT FOUND';
 		}
 		function request(url, load, error) {
 			var xhr = new XMLHttpRequest();
@@ -29,8 +49,7 @@
 			}
 			xhr.send();
 		}
-		if (document.querySelector('#default'))
-			page();
-		else
-			page({dispatch: false});
+
+		page();
+
 	</script>
