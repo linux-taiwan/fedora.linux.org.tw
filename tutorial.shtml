@@ -9,8 +9,15 @@
 <!--#include virtual="partials/header.shtml" -->
 	<main>
 		<div id="content" class="wrapper">
-			<p>新手一定要會的就是怎麼關掉<a href="tutorial/selinux">SELinux</a>啊！</p>
-			<p>關於使用<a href="tutorial/gnome">GNOME</a>桌面環境。</p>
+			<p>
+				新手一定要會的就是怎麼關掉<a href="tutorial/selinux">SELinux</a>啊！
+			</p>
+			<p>
+				關於使用<a href="tutorial/gnome">GNOME</a>桌面環境。
+			</p>
+			<p>
+				進階使用者常用的<a href="tutorial/cli">命令列</a>。
+			</p>
 		</div>
 	</main>
 <!--#include virtual="partials/footer.shtml" -->
