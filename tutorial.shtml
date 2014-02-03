@@ -18,6 +18,12 @@
 			<p>
 				進階使用者常用的<a href="tutorial/cli">命令列</a>。
 			</p>
+			<p>
+				多媒體相關功能請安裝<a href="http://rpmfusion.org/">RPMFusion</a>套件庫。
+			</p>
+			<p>
+				播放DVD的話，請再安裝<a href="http://pkgs.org/search/?keyword=libdvdcss">libdvdcss</a>。
+			</p>
 		</div>
 	</main>
 <!--#include virtual="partials/footer.shtml" -->
