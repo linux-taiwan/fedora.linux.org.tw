@@ -34,6 +34,9 @@ Shell Extensions
 
 	在概覽搜尋框裡作簡單的計算。
 
+* GPaste
+	剪貼簿紀錄：`sudo yum install gnome-shell-extension-gpaste`
+
 Gedit
 -------------
 
