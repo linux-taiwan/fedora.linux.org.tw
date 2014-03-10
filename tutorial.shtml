@@ -24,6 +24,10 @@
 			<p>
 				播放DVD的話，請再安裝<a href="http://pkgs.org/search/?keyword=libdvdcss">libdvdcss</a>。
 			</p>
+			<p>
+				雖然有預載 LibreOffice ，但是目前需要自己手動安裝中文語系：<br />
+				<code>yum install -y libreoffice-langpack-zh-Hant</code>
+			</p>
 		</div>
 	</main>
 <!--#include virtual="partials/footer.shtml" -->
