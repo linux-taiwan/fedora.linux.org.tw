@@ -42,19 +42,18 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     hostname: '*',
-					middleware: function(connect, options) {
-						return [
-							connect.static(options.base),
-							function(req, res) {
-								var filename = '.' + req.url + '.html';
-								var filename2 = '.' + req.url + '.md';
-								if (grunt.file.exists(filename))
-									res.end(grunt.file.read(filename));
-								else if (grunt.file.exists(filename2))
-									res.end(grunt.file.read(filename2));
-								else
-									res.end(grunt.file.read('default.html'));
-						}];
+					middleware: function(connect, options, middlewares) {
+						middlewares.unshift(function(req, res, next) {
+							var filename = '.' + req.url + '.html';
+							var filename2 = '.' + req.url + '.md';
+							if (grunt.file.exists(filename))
+								res.end(grunt.file.read(filename));
+							else if (grunt.file.exists(filename2))
+								res.end(grunt.file.read(filename2));
+							else
+								return next();
+						});
+						return middlewares;
 					}
                 }
             }

@@ -1,7 +1,10 @@
 body {
   margin: 0;
   background-color: #E6E6E6;
-  color: #333; }
+  color: #333;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
 
 .wrapper {
   margin: 0 auto;
@@ -59,7 +62,7 @@ body > header {
 
 #header + nav {
   background-color: #416DAC;
-  background-image: linear-gradient(to bottom, #416dac, #1e4a88); }
+  background-image: linear-gradient(to bottom, #416DAC, #1E4A88); }
   #header + nav ul {
     list-style-type: none;
     padding: 0;
@@ -81,7 +84,8 @@ body > header {
 
 main {
   background-color: #fff;
-  padding: 1em; }
+  padding: 1em;
+  flex: 1; }
   main .slogan {
     float: left; }
   main .banner {
@@ -150,3 +154,5 @@ footer:before {
   background-color: #4870bc;
   border-bottom: 3px solid #ccc;
   border-top: 1px solid #666; }
+
+/*# sourceMappingURL=style.css.map */
