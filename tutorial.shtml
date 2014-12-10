@@ -42,6 +42,9 @@
 				<p>
 					可以用來安裝其它第三方軟體的 <a href="tutorial/copr">Copr</a> 套件庫。
 				</p>
+				<p>
+					升級 Fedora 版本所用的 <a href="tutorial/fedup">FedUp</a> 工具。
+				</p>
 			</section>
 		</div>
 	</main>

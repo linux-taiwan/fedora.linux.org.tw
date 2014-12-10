@@ -11,11 +11,8 @@
 		<div id="content" class="wrapper">
 			<p class="slogan">
 				開源世界最先進的作業系統！<br>
-				Fedora 20 於2013年12月17日發行！
+				<a href="https://getfedora.org/">Fedora 21</a> 於2013年12月09日發行！
 			</p>
-			<div class="banner">
-			<a href="http://fedoraproject.org/zh_TW/get-fedora"><img alt="Fedora 20 Heisenbug is here!" src="http://fedoraproject.org/static/images/banners/f20release.png"></a>
-			</div>
 		</div>
 	</main>
 <!--#include virtual="partials/footer.shtml" -->

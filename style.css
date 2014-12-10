@@ -88,8 +88,6 @@ main {
   flex: 1; }
   main .slogan {
     float: left; }
-  main .banner {
-    text-align: right; }
   main article img {
     max-width: 100%; }
 
