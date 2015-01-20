@@ -12,7 +12,7 @@ Shell Extensions
 
 * [Activities Configurator](https://extensions.gnome.org/extension/358/activities-configurator/)
 
-	自訂左上角的概覽字樣，可以在`/usr/share/icons/Fedora/scalable/places/start-here.svg`找到 Fedora Logo 來用。
+	自訂左上角的概覽字樣，可以在`/usr/share/icons/Bluecurve`找到 Fedora Logo 來用。
 
 * [WindowOverlay Icons](https://extensions.gnome.org/extension/302/windowoverlay-icons/)
 
@@ -30,10 +30,6 @@ Shell Extensions
 
 	將不支援 GNOME Shell 狀態列的傳統圖示顯示回頂端。
 
-* [Calculator](https://extensions.gnome.org/extension/111/calculator/)
-
-	在概覽搜尋框裡作簡單的計算。
-
 * GPaste
 	剪貼簿紀錄：`sudo yum install gnome-shell-extension-gpaste`
 
@@ -43,9 +39,3 @@ Gedit
 啟用如 git gutter 之類的外掛功能:
 
 `sudo yum install gedit-plugins`
-
-
-初始啟動程式偏好設定
-------------------
-輸入指令：
-`gnome-session-properties`
