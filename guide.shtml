@@ -53,7 +53,7 @@
 						<img src="http://2.bp.blogspot.com/-Wt0EQQuVCjQ/UsPnousKciI/AAAAAAAADAo/uUKnw7ZgiEQ/s1600/fedora20-Settings-region-language-more.png" alt="settings-region-language-more" />
 					</p>
 					<p>
-						常見語言列表中沒有「漢語 (臺灣)」的選項，因此點按直的刪節號圖示選取更多語言。
+						常見語言列表中沒有「漢語 (臺灣)」的選項，因此點按「直的刪節號」圖示選取更多語言。
 					</p>
 					<p>
 						<img src="http://4.bp.blogspot.com/-lL73y6-TCNI/UsPnnkE8_HI/AAAAAAAADAQ/6yQzKzN3C0Y/s1600/fedora20-Settings-region-language-more-taiwan.png" alt="settings-region-language-more-taiwan" />
@@ -129,7 +129,7 @@
 						由於本指引安裝時採用虛擬機環境，因此磁碟空白尚未設定，安裝程式可自動處理磁碟分割，無須煩惱其他細節，我們這裡直接按下「繼續」回到安裝摘要的主畫面。
 					</p>
 					<p>
-						如果你的硬碟先前已經安裝好其他作業系統，例如 Windows，可能會面臨磁碟空間不足的問題，此時安裝程式會協助你取回空間。為了避免取回空間的動作不小心消除現有的資料，或誤刪重要分割區，因此建議在進入 fedora 安裝程式之前，最好已先備份過重要資料，並以其他磁碟分割程式挪出 20GB 以上的空白空間供 fedora 安裝時設定。註：Windows 下有免費的 Easus Parted Master 個人版可以調整磁碟分割大小。
+						如果你的硬碟先前已經安裝好其他作業系統，例如 Windows，可能會面臨磁碟空間不足的問題，此時安裝程式會協助你取回空間。為了避免取回空間的動作不小心消除現有的資料，或誤刪重要分割區，因此建議在進入 fedora 安裝程式之前，最好已先備份過重要資料，並以其他磁碟分割程式挪出 20GB 以上的空白空間供 fedora 安裝時設定。註：Windows 下有免費的 EaseUS Parted Master 個人版可以調整磁碟分割大小。
 					</p>
 					<p>
 						如果你的硬碟先前已安裝過其他 Linux，而這次的 fedora 安裝你想要將它覆蓋在舊 Linux 分割區上，安裝程式也可以直接重複使用既有的分割區，你只要設定掛載點，並指明是否要重新格式化即可。
@@ -291,13 +291,13 @@
 						倉頡由於原作者拋棄著作權使其進入公眾領域供眾人自由利用，香港有一群熱心的朋友開發了 ibus-cangjie 倉頡輸入法任人使用。你可以透過 Gnome 桌面環境中所附帶的「軟體」程式安裝之，啟動「軟體」後，從 [附加元件] > [輸入來源] 裡找到 Canjie 輸入法並安裝，重新登入就能透過 [地區和語言] 設定倉頡輸入法的使用，目前支援倉頡第三代、第五代，以及速成輸入法。
 					</p>
 					<p>
-						無蝦米雖然拆字規則的專利已經過期，但行易有限公司提供的輸入字根與漢字對照表其著作權仍為該公司所有，仍需要向該公司購買才能使用。網路上雖有許多網友自行整理的輸入法表格，但著作權情況不明。因此若想使用無蝦米輸入法，請自行查詢相關資料設定。 
+						無蝦米雖然拆字規則的專利已經過期，但行易有限公司提供的輸入字根與漢字對照表其著作權仍為該公司所有，仍需要向該公司購買才能使用。網路上雖有許多網友自行整理的輸入法表格，但著作權情況不明。因此若想使用無蝦米輸入法，請自行查詢相關資料設定。
 					</p>
 					<p>
 						<img src="http://3.bp.blogspot.com/-D9JVJKS1IY8/UsP600m9uzI/AAAAAAAADFg/S7YFraJTwf0/s1600/fedora20-gnomsetup-network.png" alt="gnomsetup-network" />
 					</p>
 					<p>
-						如果系統偵測到無線網路等，會提請你設定。
+						如果系統偵測到無線網路等，會提醒你設定。
 					</p>
 					<p>
 						<img src="http://2.bp.blogspot.com/-GiUK5vUj4Hs/UsP69wz030I/AAAAAAAADFo/rL8RzMp5uEw/s1600/fedora20-gnomesetup-onlineaccount.png" alt="gnomesetup-online-account" />
@@ -315,7 +315,7 @@
 						<img src="http://4.bp.blogspot.com/-tQpx7BOdLvo/UsP7UI-dVAI/AAAAAAAADF4/PLiPIb6ClfA/s1600/fedora20-gnomesetup-10.png" alt="gnomesetup-10" />
 					</p>
 					<p>
-						
+
 接著會跳出 Gnome 的求助中心，裡面放有一些上手影片與文件說明，如果還不清楚 Gnome 桌面該如何操作，可以瀏覽看看。
 					</p>
 				</section>
