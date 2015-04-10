@@ -13,8 +13,23 @@
 				開源世界最先進的作業系統！<br>
 				<a href="https://getfedora.org/">Fedora 21</a> 於2014年12月09日發行！
 			</p>
+			<h2>社群動態</h2>
+			<ul id="posts"></ul>
 		</div>
 	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+		$.getJSON('https://graph.facebook.com/v2.3/543559052337419/feed?access_token=107244996094808|hrs5uGNHXE0K26ch0Z5wEW-_4Lg', function(posts) {
+			posts.data.forEach(function(post, index, array) {
+				$('#posts').append(`
+					<li>
+						<img src="https://graph.facebook.com/${post.from.id}/picture" alt="${post.from.name}" />
+<p><a href="https://facebook.com/${post.id} ">${post.message}</a></p>
+					</li>
+				`);
+			});
+		});
+	</script>
 <!--#include virtual="partials/footer.shtml" -->
 </body>
 </html>

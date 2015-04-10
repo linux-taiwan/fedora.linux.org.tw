@@ -105,12 +105,32 @@ main {
 	background-color: #fff;
 	padding: 1em;
 	flex: 1;
-	.slogan {
-		float: left;
-	}
 	article {
 		img {
 			max-width: 100%;
+		}
+	}
+}
+
+#posts {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	li {
+		margin: 1em;
+		display: flex;
+		align-items: flex-start;
+		img {
+			margin-right: 1em;
+		}
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+		p {
+			margin-top: 0;
+			flex: 1;
+			line-height: 1.5em;
 		}
 	}
 }

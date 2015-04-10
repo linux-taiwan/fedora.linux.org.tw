@@ -62,7 +62,7 @@ body > header {
 
 #header + nav {
   background-color: #416DAC;
-  background-image: linear-gradient(to bottom, #416DAC, #1E4A88); }
+  background-image: linear-gradient(to bottom, #416dac, #1e4a88); }
   #header + nav ul {
     list-style-type: none;
     padding: 0;
@@ -86,10 +86,26 @@ main {
   background-color: #fff;
   padding: 1em;
   flex: 1; }
-  main .slogan {
-    float: left; }
   main article img {
     max-width: 100%; }
+
+#posts {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  #posts li {
+    margin: 1em;
+    display: flex;
+    align-items: flex-start; }
+    #posts li img {
+      margin-right: 1em; }
+    #posts li a {
+      text-decoration: none;
+      color: inherit; }
+    #posts li p {
+      margin-top: 0;
+      flex: 1;
+      line-height: 1.5em; }
 
 #content {
   min-height: 150px; }
@@ -152,5 +168,3 @@ footer:before {
   background-color: #4870bc;
   border-bottom: 3px solid #ccc;
   border-top: 1px solid #666; }
-
-/*# sourceMappingURL=style.css.map */
