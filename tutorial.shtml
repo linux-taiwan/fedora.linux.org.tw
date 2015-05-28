@@ -25,13 +25,13 @@
 				</p>
 				<p>
 					開啟 RAR 壓縮檔可以直接安裝 unar<br />
-					<code>sudo yum install -y unar</code>
+					<code>sudo dnf install -y unar</code>
 					<br />
 					遇到有問題的檔案再安裝 RPMFusion 裡的 unrar 來處理。
 				</p>
 				<p>
 					雖然有預載 LibreOffice ，但是目前需要自己手動安裝中文語系：<br />
-					<code>sudo yum install -y libreoffice-langpack-zh-Hant</code>
+					<code>sudo dnf install -y libreoffice-langpack-zh-Hant</code>
 				</p>
 			</section>
 			<section>

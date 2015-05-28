@@ -4,7 +4,7 @@ Command line interface
 
 別忘了先裝 Git 跟 Vim
 
-`sudo yum install git vim`
+`sudo dnf install git vim`
 
 SSH 連線
 -----------------
