@@ -2,7 +2,7 @@ GNOME-Shell
 -------------
 記得裝：
 
-`sudo yum install gnome-tweak-tool`
+`sudo dnf install gnome-tweak-tool`
 
 
 Shell Extensions
@@ -31,11 +31,11 @@ Shell Extensions
 	將不支援 GNOME Shell 狀態列的傳統圖示顯示回頂端。
 
 * GPaste
-	剪貼簿紀錄：`sudo yum install gnome-shell-extension-gpaste`
+	剪貼簿紀錄：`sudo dnf install gnome-shell-extension-gpaste`
 
 Gedit
 -------------
 
 啟用如 git gutter 之類的外掛功能:
 
-`sudo yum install gedit-plugins`
+`sudo dnf install gedit-plugins`

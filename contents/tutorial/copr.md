@@ -6,7 +6,7 @@ Cool Other Package Repo
 
 DNF Plugin
 -------------
-`sudo yum install -y dnf-plugins-core`
+`sudo dnf install -y dnf-plugins-core`
 
 *   `dnf copr list`
 *   `dnf copr enable`
