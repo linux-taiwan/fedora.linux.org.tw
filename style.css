@@ -62,7 +62,7 @@ body > header {
 
 #header + nav {
   background-color: #416DAC;
-  background-image: linear-gradient(to bottom, #416dac, #1e4a88); }
+  background-image: linear-gradient(to bottom, #416DAC, #1E4A88); }
   #header + nav ul {
     list-style-type: none;
     padding: 0;
@@ -86,8 +86,25 @@ main {
   background-color: #fff;
   padding: 1em;
   flex: 1; }
+  main a {
+    color: #1E4A88;
+    transition-duration: .5s; }
+    main a:hover {
+      color: #3c6eb4; }
   main article img {
     max-width: 100%; }
+  main code {
+    display: inline-block;
+    margin: .5em 0 1em;
+    padding: 2px 4px;
+    color: #3c6eb4;
+    background-color: #F7F7F9;
+    border: 1px solid #E1E1E8;
+    overflow: auto;
+    vertical-align: top;
+    font-family: 'Monaco','Menlo','Consolas','Courier New','monospace';
+    font-size: .75em;
+    border-radius: 3px; }
 
 #posts {
   margin: 0;
@@ -168,3 +185,5 @@ footer:before {
   background-color: #4870bc;
   border-bottom: 3px solid #ccc;
   border-top: 1px solid #666; }
+
+/*# sourceMappingURL=style.css.map */
