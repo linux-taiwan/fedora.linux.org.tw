@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css' />
+	    <link href="{{ site.baseurl }}/style.css" rel="stylesheet"/>
+		<link rel="alternate" type="application/rss+xml" title="FEED" href="atom.xml">
+        <title>{% if page.title %}{{ page.title }} - Fedora Linux 臺灣社群支援站{% else %}Fedora Linux 臺灣社群支援站{% endif %}</title>
+
+        <meta property="og:url" content="http://fedora.linux.org.tw{{ page.url }}"/>
+		<meta property="og:title" content="Fedora Linux 臺灣社群支援站"/>
+		<meta property="og:image" content="http://fedora.linux.org.tw{{ site.baseurl }}/logo.svg"/>
+		<meta property="og:site_name" content="Fedora Linux 臺灣社群支援站"/>
+		<meta property="og:description" content="Fedora 社群的集散地"/>
+
+        <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+
+        {% include header.html %}
+
+        <main>
+            <div id="content" class="wrapper">
+                    {{ content }}
+            </div>
+        </main>
+
+        <footer>
+    		<div class="wrapper">
+    			<a href="http://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW" class="license"><img src="{{ site.baseurl }}/cc-by-sa.svg" alt="Creative Commons BY-SA 4.0" /></a>
+    			<p>Fedora Linux 臺灣社群</p>
+    			<p>
+    				<a href="https://github.com/linux-taiwan/fedora.linux.org.tw">本站原始碼</a>
+    			</p>
+    		</div>
+    	</footer>
+
+    </body>
+
+</html>

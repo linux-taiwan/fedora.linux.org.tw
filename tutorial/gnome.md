@@ -1,3 +1,9 @@
+---
+layout: page
+title: GNOME-Shell
+permalink: /tutorial/gnome/
+---
+
 GNOME-Shell
 -------------
 記得裝：
@@ -12,7 +18,7 @@ Shell Extensions
 
 * [Activities Configurator](https://extensions.gnome.org/extension/358/activities-configurator/)
 
-	自訂左上角的概覽字樣，可以在`/usr/share/icons/Bluecurve`找到 Fedora Logo 來用。
+	自訂左上角的概覽字樣，可以在 `/usr/share/icons/Bluecurve` 找到 Fedora Logo 來用。
 
 * [WindowOverlay Icons](https://extensions.gnome.org/extension/302/windowoverlay-icons/)
 
@@ -30,8 +36,9 @@ Shell Extensions
 
 	將不支援 GNOME Shell 狀態列的傳統圖示顯示回頂端。
 
-* GPaste
-	剪貼簿紀錄：`sudo dnf install gnome-shell-extension-gpaste`
+* GPaste 剪貼簿紀錄：
+
+	`sudo dnf install gnome-shell-extension-gpaste`
 
 Gedit
 -------------

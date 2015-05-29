@@ -1,3 +1,9 @@
+---
+layout: page
+title: SElinux
+permalink: /tutorial/selinux/
+---
+
 SELinux
 =============
 誰來補一下介紹這煩人的機制 XD

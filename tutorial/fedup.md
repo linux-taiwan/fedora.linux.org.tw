@@ -1,3 +1,9 @@
+---
+layout: page
+title: FedUp
+permalink: /tutorial/fedup/
+---
+
 FedUp
 =============
 FEDora UPgrader
