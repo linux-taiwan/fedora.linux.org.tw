@@ -122,7 +122,8 @@ main {
     #posts li p {
       margin-top: 0;
       flex: 1;
-      line-height: 1.5em; }
+      line-height: 1.5em;
+      word-break: break-all; }
 
 #content {
   min-height: 150px; }
@@ -137,6 +138,7 @@ main {
   #members a {
     display: block;
     width: 100px;
+    min-width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-right: 1em;
@@ -185,5 +187,41 @@ footer:before {
   background-color: #4870bc;
   border-bottom: 3px solid #ccc;
   border-top: 1px solid #666; }
+
+#menu-icon {
+  display: none; }
+
+@media screen and (min-width: 506px) {
+  nav > label {
+    display: none; } }
+@media screen and (max-width: 506px) {
+  #header .social {
+    position: initial;
+    line-height: 0;
+    text-align: right; }
+
+  nav {
+    min-height: 2.5em;
+    height: auto;
+    width: 100%; }
+    nav label {
+      display: block;
+      text-align: right; }
+      nav label img {
+        margin: .5em 1em; }
+    nav #navigation {
+      display: none; }
+    nav input:checked ~ ul#navigation {
+      display: block;
+      padding: 0 0 .5em;
+      height: auto;
+      line-height: 1.5em; }
+      nav input:checked ~ ul#navigation li {
+        display: inline-block;
+        margin: 0;
+        width: 100%; }
+        nav input:checked ~ ul#navigation li a {
+          display: block;
+          padding: .5em 1em; } }
 
 /*# sourceMappingURL=style.css.map */
