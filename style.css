@@ -122,7 +122,8 @@ main {
     #posts li p {
       margin-top: 0;
       flex: 1;
-      line-height: 1.5em; }
+      line-height: 1.5em;
+      word-break: break-all; }
 
 #content {
   min-height: 150px; }
