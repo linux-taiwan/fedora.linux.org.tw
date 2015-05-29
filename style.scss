@@ -229,3 +229,52 @@ footer:before {
 	border-bottom: 3px solid #ccc;
 	border-top: 1px solid #666;
 }
+
+#menu-icon {
+	display: none;
+}
+
+@media screen and (min-width: 506px) {
+	nav > label  {
+	    display: none;
+	}
+}
+
+
+@media screen and (max-width: 506px) {
+	nav {
+	    min-height: 2.5em;
+	    height:auto;
+	    width: 100%;
+
+	    label {
+	        display: block;
+	        text-align: right;
+
+	        img {margin: .5em 1em;}
+	    }
+
+		#navigation {
+			display: none;
+		}
+
+	    input:checked ~ ul#navigation {
+	        display: block;
+			padding: 0 0 .5em;
+			height: auto;
+	        line-height: 1.5em;
+
+
+	        li {
+	            display: inline-block;
+	            margin: 0;
+	            width: 100%;
+
+	            a {
+	                display: block;
+	                padding: .5em 1em;
+	            }
+	        }
+	    }
+	}
+}
