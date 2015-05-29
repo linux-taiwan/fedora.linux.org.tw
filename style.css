@@ -194,6 +194,11 @@ footer:before {
   nav > label {
     display: none; } }
 @media screen and (max-width: 506px) {
+  #header .social {
+    position: initial;
+    line-height: 0;
+    text-align: right; }
+
   nav {
     min-height: 2.5em;
     height: auto;
