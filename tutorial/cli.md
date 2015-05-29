@@ -1,3 +1,9 @@
+---
+layout: page
+title: Command line interface
+permalink: /tutorial/cli/
+---
+
 Command line interface
 ======================
 就是暱稱黑畫面的命令列。
