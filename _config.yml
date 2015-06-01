@@ -5,4 +5,4 @@ defaults:
     values:
       layout: "default"
 
-baseurl: "/fedora.linux.org.tw"
+baseurl: ""
