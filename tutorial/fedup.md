@@ -10,4 +10,4 @@ FEDora UPgrader
 
 `sudo dnf install fedup`
 
-`sudo fedup --product=workstation --network 22`
+`sudo fedup --product=workstation --network {{ site.version }}`
