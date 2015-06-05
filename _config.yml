@@ -1,7 +1,7 @@
+version: 22 # latest version of fedora
 defaults:
   -
     scope:
       path: "" # means all files
     values:
       layout: "default"
-
