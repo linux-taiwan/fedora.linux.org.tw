@@ -12,6 +12,18 @@ body {
 	flex-direction: column;
 }
 
+code {
+	display: inline-block;
+	color: $primary-color;
+	background-color: #F7F7F9;
+	border: 1px solid #E1E1E8;
+	overflow: auto;
+	vertical-align: top;
+	font-family: 'Monaco','Menlo','Consolas','Courier New','monospace';
+	font-size: .75em;
+	border-radius: 3px;
+}
+
 .wrapper {
 	margin: 0 auto;
 	max-width: 960px;
@@ -120,17 +132,8 @@ main {
 			max-width: 100%;
 		}
 		code {
-			display: inline-block;
 			margin: .5em 0 1em;
-		    padding: 2px 4px;
-		    color: $primary-color;
-	    	background-color: #F7F7F9;
-	    	border: 1px solid #E1E1E8;
-			overflow: auto;
-			vertical-align: top;
-			font-family: 'Monaco','Menlo','Consolas','Courier New','monospace';
-			font-size: .75em;
-			border-radius: 3px;
+	    padding: 2px 4px;
 		}
 	}
 }
