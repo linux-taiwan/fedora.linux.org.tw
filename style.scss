@@ -307,11 +307,13 @@ footer {
 }
 
 footer:before {
-	content: '';
+	content: 'This site is not affiliated with or endorsed by the Fedora Project';
 	display: block;
 	height: 20px;
 	clear: both;
 	background-color: #4870bc;
+	color: #fff;
+	text-align: center;
 	border-bottom: 3px solid #ccc;
 	border-top: 1px solid #666;
 }
