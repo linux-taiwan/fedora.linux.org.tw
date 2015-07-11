@@ -17,10 +17,8 @@ Fedora 臺灣社群，即 Fedora Taiwan，是一群熱愛 Fedora 與自由軟體
 募得的款項，依募款方式不同，扣除手續費與行政管理費 (詳情請見後方說明) 後，主要用途依優先重要順序排列如下：
 
 1. 臺灣社群網站之網域、主機維護與代管，包含
-
-    Fedora 臺灣社群支援站 <http://fedora.linux.org.tw/>
-
-    Fedora 中文論壇 <https://fedora-tw.org/>
+	Fedora 臺灣社群支援站 <http://fedora.linux.org.tw/>
+	Fedora 中文論壇 <https://fedora-tw.org/>
 2. Fedora 臺灣大使前往社群主辦活動之地點的交通費
 3. 製作紀念品供活動使用，如 Fedora 貼紙、鑰匙圈、隨身碟、活動紀念 T-shirt 等
 經費將依上述優先序使用。
@@ -40,7 +38,7 @@ Fedora 臺灣社群，即 Fedora Taiwan，是一群熱愛 Fedora 與自由軟體
 經由 ATM 轉帳之捐款，協會將會保留 5% 做為行政管理費，其餘 95% 用於社群。
 *協會收取「行政管理費」係因協會需人力開立、寄發收據，並籌畫、推動社群發展等相關之事項。*
 
-ATM 轉帳捐款後，請記得註明「Fedora 社群捐款」，並將您捐款帳號之銀行代碼與帳號後五碼，還有您的姓名、地址寄到 service@slat.org，以便協會將捐款收據寄上。
+ATM 轉帳捐款後，請記得註明「Fedora 社群捐款」，並將您捐款帳號之銀行代碼與帳號後五碼，還有您的姓名、地址寄到 <service@slat.org>，以便協會將捐款收據寄上。
 
  
 ##Fedora 是什麼##
