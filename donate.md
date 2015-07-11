@@ -16,7 +16,9 @@ Fedora 臺灣社群，即 Fedora Taiwan，是一群熱愛 Fedora 與自由軟體
 1. 臺灣社群網站之網域、主機維護與代管，包含
 
 	Fedora 臺灣社群支援站 <http://fedora.linux.org.tw/>
+
 	Fedora 中文論壇 <https://fedora-tw.org/>
+
 2. Fedora 臺灣大使前往社群主辦活動之地點的交通費
 3. 製作紀念品供活動使用，如 Fedora 貼紙、鑰匙圈、隨身碟、活動紀念 T-shirt 等
 經費將依上述優先序使用。
