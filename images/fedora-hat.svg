@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient585">
+   <stop stop-color="#ffffff" stop-opacity="0.175" offset="0" id="stop586"/>
+   <stop stop-color="#ffffff" stop-opacity="0.375" offset="1" id="stop587"/>
+  </linearGradient>
+  <linearGradient id="linearGradient579">
+   <stop stop-color="#000000" stop-opacity="0.408333" offset="0" id="stop580"/>
+   <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop581"/>
+  </linearGradient>
+  <linearGradient xlink:href="#linearGradient579" y2="0.60226" y1="0.511347" x2="0.411768" x1="0.485298" id="linearGradient582"/>
+  <linearGradient xlink:href="#linearGradient585" y2="1.096494" y1="0.12278" x2="0.327205" x1="0.507352" id="linearGradient584"/>
+  <linearGradient y2="0.500006" x2="0.999997" y1="0.500006" x1="-0.00001" xlink:href="#linearGradient585" id="linearGradient589"/>
+ </defs>
+ <metadata id="metadata21">Clipart by Nicu Buculei - svg_globe_greenpeoplehatclothingNicu BuculeiNicu BuculeiNicu Buculeiimage/svg+xmlen</metadata>
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(-159.898, 146.494, 121.257) matrix(0.482133, 0, 0, -0.489605, -479.857, 418.52)" id="g847">
+   <path fill="#1f3379" fill-opacity="0.991667" fill-rule="evenodd" stroke="#000000" stroke-width="10" stroke-linejoin="round" id="path575" d="m1147.05835,569.498413c2.913574,-12.972168 5.827148,-102.335785 32.048828,-100.89444c93.232666,2.88269 189.378906,-93.687744 259.303467,121.073395c215.60083,100.894409 14.991333,181.970337 -155.691406,174.76355c-168.657471,-7.060913 -312.657349,-128.640381 -135.660889,-194.942505z"/>
+   <path fill-rule="evenodd" stroke="#000000" stroke-width="5" id="path576" d="m1142.68811,598.325439c107.800415,67.743408 285.525269,25.944214 292.80896,-7.206787c10.19751,11.530884 0,43.240479 0,43.240479c-46.616211,60.536743 -272.414307,47.564575 -297.179199,4.324097c-2.913574,-11.530884 2.913452,-36.033691 4.370239,-40.357788l0,0z"/>
+   <path fill="url(#linearGradient582)" fill-rule="evenodd" stroke-width="1pt" id="path578" d="m1183.477417,490.224213c27.678589,-24.50293 148.589722,10.089478 164.614136,28.826935c5.826904,31.709717 -148.589722,7.206787 -164.614136,-28.826935z"/>
+   <path fill="url(#linearGradient584)" fill-rule="evenodd" stroke-width="1pt" id="path583" d="m1183.477417,526.257935c13.110962,30.268311 64.097534,100.894409 150.046509,33.151001c-71.381348,2.882813 -101.973389,-5.765381 -150.046509,-33.151001z"/>
+   <path fill="url(#linearGradient589)" fill-rule="evenodd" stroke-width="1pt" id="path588" d="m1214.069336,467.162628c18.937988,8.648071 138.392334,41.799133 151.503174,31.709656c14.567627,-5.765381 11.654297,-8.648071 4.370361,-10.089417c-11.654053,7.206726 -32.048706,11.530823 -155.873535,-21.620239z"/>
+   <path fill="#ffffff" fill-opacity="0.316667" fill-rule="evenodd" stroke="#000000" stroke-width="1.87833996pt" id="path590" d="m1160.169189,614.180298c17.481201,8.648071 71.381348,20.178833 91.776123,21.620239c14.567505,10.089355 7.283691,25.944214 1.456665,37.475098c-39.33252,0 -84.492188,-10.089478 -96.14624,-23.061646c-7.283813,-12.972168 -4.370239,-23.061646 2.913452,-36.033691z"/>
+  </g>
+ </g>
+</svg>
