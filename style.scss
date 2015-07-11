@@ -164,6 +164,41 @@ main {
 
 #content {
 	min-height: 150px;
+
+	h2 {
+		padding-bottom: .5rem;
+		border-bottom: 1px solid #343434;
+
+		&:after {
+			content: url('/logo.svg');
+			width: .5rem;
+			filter: opacity(10%);
+		}
+	}
+
+	h3 {
+		display: inline-block;
+		margin: 0 .5rem;
+		padding: .35rem;
+		background-color: $primary-color;
+		color: #fff;
+		border-radius: .25rem;
+		box-shadow: 5px 5px 0 #ccc;
+	}
+
+	p {
+		margin-bottom: 2rem;
+		padding-right: 2rem;
+		line-height: 1.5rem;
+	}
+
+	ul, ol {
+		margin-bottom: 2rem;
+
+		li {
+			line-height: 1.5rem;
+		}
+	}
 }
 
 #members {
