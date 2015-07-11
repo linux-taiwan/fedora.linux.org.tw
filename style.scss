@@ -43,10 +43,11 @@ body > header {
 		font-size: 1em;
 		margin: 0;
 		text-transform: uppercase;
+
 		&:before {
 			content: '';
 			display: inline-block;
-			background-image: url('logo.svg');
+			background-image: url('{{ site.baseurl }}/images/logo.svg');
 			background-size: 36px 36px;
 			width: 36px;
 			height: 36px;
@@ -170,8 +171,15 @@ main {
 		border-bottom: 1px solid #343434;
 
 		&:after {
-			content: url('/logo.svg');
+			display: inline-block;
+			content: "";
 			width: .5rem;
+			height: .5rem;
+			background-image: url('{{ site.baseurl }}/images/logo.svg');
+			background-size: 36px 36px;
+			width: 36px;
+			height: 36px;
+			margin-right: .3em;
 			filter: opacity(10%);
 		}
 	}
