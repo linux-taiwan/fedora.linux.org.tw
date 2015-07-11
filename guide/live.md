@@ -12,4 +12,9 @@ permalink: /guide/step-1/
 
 選了 Try Fedora 後，系統貼心提醒你如果接下來想要將 fedora 安裝到硬碟中，稍後可以從左上角「概覽」(Activities) 啟動的活動概覽畫面中來選取。
 
-下一步：[調整介面語言](/guide/step-2/)。
+<div class="switch">
+  <div>
+    <div><a href="/guide/">回到目錄：安裝教學。</a></div>
+    <div><a href="/guide/step-2/">下一步：調整介面語言。</a></div>
+  </div>
+</div>

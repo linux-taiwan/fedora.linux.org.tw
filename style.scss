@@ -136,6 +136,41 @@ main {
 			margin: .5em 0 1em;
 	    padding: 2px 4px;
 		}
+
+		.switch {
+			text-align: center;
+
+				> div{
+				display: inline-block;
+				margin: 0 auto;
+				padding: 4px;
+				text-align: center;
+				background-color: #fff;
+				border: 1px solid $primary-color;
+
+				> div {
+					display: inline-block;
+					width: 25rem;
+
+					a {
+						display: block;
+						color: #fff;
+						text-decoration: none;
+						padding: .5rem 2rem;
+						background-color: $primary-color;
+						border: 3px solid $primary-color;
+
+						&:hover {
+							color: $primary-color;
+							background-color: #fff;
+						}
+					}
+
+					&.last {}
+					&.next {}
+				}
+			}
+		}
 	}
 }
 
