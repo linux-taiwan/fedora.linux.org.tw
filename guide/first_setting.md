@@ -101,3 +101,10 @@ Fedora 對漢語 (臺灣) 的預設輸入法僅提供 Chewing 新酷音輸入法
 ![gnomesetup-10](http://4.bp.blogspot.com/-tQpx7BOdLvo/UsP7UI-dVAI/AAAAAAAADF4/PLiPIb6ClfA/s1600/fedora20-gnomesetup-10.png)
 
 接著會跳出 Gnome 的求助中心，裡面放有一些上手影片與文件說明，如果還不清楚 Gnome 桌面該如何操作，可以瀏覽看看。
+
+<div class="switch">
+  <div>
+    <div><a href="/guide/step-3/">上一步：安裝到硬碟。</a></div>
+    <div><a href="/guide/">回到目錄：安裝教學。</a></div>
+  </div>
+</div>

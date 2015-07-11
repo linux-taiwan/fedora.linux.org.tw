@@ -141,4 +141,9 @@ root 帳號是 Linux 系統中權力最大的帳號，又稱為超級使用者 (
 
 選擇「重新啟動」。
 
-下一步：[初次登入設定](/guide/step-4/)。
+<div class="switch">
+  <div>
+    <div><a href="/guide/step-2/">上一步：調整介面語言。</a></div>
+    <div><a href="/guide/step-4/">下一步：初次登入設定。</a></div>
+  </div>
+</div>
