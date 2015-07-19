@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 參與
-permalink: /join/
+title: 社群
+permalink: /community/
 ---
 
 
@@ -50,3 +50,30 @@ Fedora 台灣社群常常會舉辦活動
 
 - [關於 Fedora Badge](https://fedoraproject.org/wiki/Open_Badges)
 - [Fedora Badge 主頁](https://badges.fedoraproject.org/)
+
+
+## 社群成員
+
+<ul id="members">
+    <li>
+    	<a href="http://breezymove.blogspot.tw/"><img src="http://www.gravatar.com/avatar/6a06d23deec5e9bfc3433fd7934eb19b?s=80" alt="zerng07" /></a>
+    	<p>
+    		<span class="name">Cheng-Chia Tseng</span>
+    		Fedora Ambassador，自由軟體翻譯者。
+    	</p>
+    </li>
+    <li>
+    	<a href="http://blog.freedomknight.me/"><img src="http://www.gravatar.com/avatar/cc6b0abf49e4efad3b8b7dba0ff588a9?s=80" alt="FreedomKnight" /></a>
+    	<p>
+    		<span class="name">FreedomKnight</span>
+    		Fedora Ambassador。
+    	</p>
+    </li>
+    <li>
+    	<a href="http://kidwm.net/"><img src="http://www.gravatar.com/avatar/75307af344414a724528f5ba3920d01c?s=80" alt="kidwm" /></a>
+    	<p>
+    		<span class="name">WM</span>
+    		網站維護人。
+    	</p>
+    </li>
+</ul>
