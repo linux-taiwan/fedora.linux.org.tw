@@ -4,6 +4,11 @@ title: 社群
 permalink: /community/
 ---
 
+## Fedora 台灣論壇
+我們最近新開了一個專屬於 Fedora 的台灣論壇，無論是你遇到了什麼問題，或是有什麼新奇的發現，
+都可以攋這個論壇與大家分享、討論！
+
+論壇網址：[https://fedora-tw.org/](https://fedora-tw.org/)
 
 ## 實體聚會
 
@@ -45,6 +50,19 @@ Fedora 台灣社群常常會舉辦活動
 - [我想成為校園大使，我該怎麼做？](https://fedoraproject.org/wiki/Ambassadors_Join_start/zh-tw)
 
 ## 軟體打包
+
+### 相關文件
+- [用 GNU hello 打包 rpm](https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package/zh-tw)
+- [如何打包 rpm](https://fedoraproject.org/wiki/How_to_create_an_RPM_package/zh-tw)
+- [如何成為 rpm 維護者](https://fedoraproject.org/wiki/Category:Package_Maintainers/zh-tw#.E6.B7.B1.E5.85.A5.E9.96.B1.E8.AE.80)
+
+### 相關資源
+- [Blue Bat 大大的投影片](http://www.slideshare.net/bluebat/rpm-packaging)
+- [RPM Maximum](http://rpm5.org/docs/max-rpm.html) (詳細的文件，只是有點過時)
+- [RPM Guide](http://rpm5.org/docs/rpm-guide.html)
+- [rpm.org](https://rpm.org)
+- [rpm5.org](https://rpm5.org)
+- [Copr](https://copr.fedoraproject.org)
 
 ## Fedora Badge
 
