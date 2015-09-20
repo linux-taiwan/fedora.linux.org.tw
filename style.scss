@@ -179,10 +179,12 @@ main {
 	padding: 0;
 	list-style-type: none;
 	li {
-		margin: 1em;
+		margin: 1em 0em;
+		padding: 1em;
 		display: flex;
 		align-items: flex-start;
-		img {
+		border-bottom: 3px dashed lighten($primary-color, 30%);
+		.profilePhoto {
 			margin-right: 1em;
 		}
 		a {
