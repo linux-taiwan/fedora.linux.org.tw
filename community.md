@@ -6,7 +6,7 @@ permalink: /community/
 
 ## Fedora 台灣論壇
 我們最近新開了一個專屬於 Fedora 的台灣論壇，無論是你遇到了什麼問題，或是有什麼新奇的發現，
-都可以攋這個論壇與大家分享、討論！
+都可以來這個論壇與大家分享、討論！
 
 論壇網址：[https://fedora-tw.org/](https://fedora-tw.org/)
 
