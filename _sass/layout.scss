@@ -68,7 +68,10 @@
 	}
 }
 
-@media screen and (max-width: 506px) {
+@media screen and (max-width: 363px) {
+	#header h1 {
+		font-size: .85rem;
+	}
 	footer:before {
 		padding: .5rem 2rem;
 		height: 2rem;
