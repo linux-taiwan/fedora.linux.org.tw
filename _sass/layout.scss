@@ -24,19 +24,26 @@
 	    label {
 	        display: block;
 	        text-align: right;
-
-	        img {margin: .5em 1em;}
+	        img {
+				margin: .5em 1em;
+				&:hover {
+					color: #fcf7d5;
+					text-shadow: 1.5px 1.5px black;
+				}
+			}
 	    }
 
-		#navigation {
-			display: none;
-		}
-
-	    input:checked ~ ul#navigation {
+		ul#navigation {
+			position: absolute;
+			right: -100%;
 	        display: block;
-			padding: 0 0 .5em;
+			width: 100%;
+			padding: 0 0 .7em;
 			height: auto;
+			background-color: #1E4A88;
 	        line-height: 1.5em;
+			box-shadow: 0 2px 2px #ccc;
+			transition-duration: .3s;
 
 	        li {
 	            display: inline-block;
@@ -48,7 +55,16 @@
 	                padding: .5em 1em;
 	            }
 	        }
-	    }
+		}
+
+	    input:checked {
+			~ label img {
+			}
+			~ ul#navigation {
+				right: 0;
+		    }
+		}
+
 	}
 }
 
