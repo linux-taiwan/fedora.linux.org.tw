@@ -15,10 +15,29 @@ layout: default
 	.then(function(posts) {
 		var content = '';
 		posts.data.forEach(function(post, index, array) {
+
+			content += `<li>
+				<img src="https://graph.facebook.com/${post.from.id}/picture" alt="${post.from.name}" class="profilePhoto" /><p>`
+
+			var before = false;
+			if(post.message) {
+				content += `<a href="https://facebook.com/${post.id} ">${post.message?post.message:""}</a>`
+				before = true;
+			}
+
+			if(post.link) {
+				content += before?"<br>":"[Share]";
+				content += `<a href="${post.link}">${post.name?post.name:""}</a>`
+				before = true;
+			}
+
+			if(post.picture) {
+				content += before?"<br>":"";
+				content += `<img src="${post.picture}" alt=""/>`
+			}
+
 			content += `
-				<li>
-					<img src="https://graph.facebook.com/${post.from.id}/picture" alt="${post.from.name}" />
-<p><a href="https://facebook.com/${post.id} ">${post.message}</a></p>
+					</p>
 				</li>
 			`;
 		});
