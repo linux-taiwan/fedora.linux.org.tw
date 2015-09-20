@@ -193,6 +193,7 @@ main {
 		}
 		p {
 			margin-top: 0;
+			padding: 0;
 			flex: 1;
 			line-height: 1.5em;
 			word-break: break-all;
@@ -306,18 +307,17 @@ footer {
 		float: right;
 		opacity: 0.5;
 	}
-}
-
-footer:before {
-	content: 'This site is not affiliated with or endorsed by the Fedora Project';
-	display: block;
-	height: 20px;
-	clear: both;
-	background-color: #4870bc;
-	color: #fff;
-	text-align: center;
-	border-bottom: 3px solid #ccc;
-	border-top: 1px solid #666;
+	&:before {
+		content: 'This site is not affiliated with or endorsed by the Fedora Project';
+		display: block;
+		height: 20px;
+		clear: both;
+		background-color: #4870bc;
+		color: #fff;
+		text-align: center;
+		border-bottom: 3px solid #ccc;
+		border-top: 1px solid #666;
+	}
 }
 
 @import "layout";
