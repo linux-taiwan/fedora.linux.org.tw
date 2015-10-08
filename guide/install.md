@@ -45,17 +45,17 @@ permalink: /guide/step-3/
 
 
 
-如果你的硬碟先前已經安裝好其他作業系統，例如 Windows，可能會面臨磁碟空間不足的問題，此時安裝程式會協助你取回空間。為了避免取回空間的動作不小心消除現有的資料，或誤刪重要分割區，因此建議在進入 fedora 安裝程式之前，最好已先備份過重要資料，並以其他磁碟分割程式挪出 20GB 以上的空白空間供 fedora 安裝時設定。註：Windows 下有免費的 EaseUS Parted Master 個人版可以調整磁碟分割大小。
+如果你的硬碟先前已經安裝好其他作業系統，例如 Windows，可能會面臨磁碟空間不足的問題，此時安裝程式會協助你取回空間。為了避免取回空間的動作不小心消除現有的資料，或誤刪重要分割區，因此建議在進入 Fedora 安裝程式之前，最好已先備份過重要資料，並以其他磁碟分割程式挪出 20GB 以上的空白空間供 Fedora 安裝時設定。註：Windows 下有免費的 EaseUS Parted Master 個人版可以調整磁碟分割大小。
 
 
 
-如果你的硬碟先前已安裝過其他 Linux，而這次的 fedora 安裝你想要將它覆蓋在舊 Linux 分割區上，安裝程式也可以直接重複使用既有的分割區，你只要設定掛載點，並指明是否要重新格式化即可。
+如果你的硬碟先前已安裝過其他 Linux，而這次的 Fedora 安裝你想要將它覆蓋在舊 Linux 分割區上，安裝程式也可以直接重複使用既有的分割區，你只要設定掛載點，並指明是否要重新格式化即可。
 
 
 ![install-ready](http://4.bp.blogspot.com/-9jF7a3gmBm8/UsPnxC5acDI/AAAAAAAADDY/ZmOvUo7p4O8/s1600/fedora20-install-ready.png)
 
 
-點按「開始安裝」按鈕開始安裝 fedora。
+點按「開始安裝」按鈕開始安裝 Fedora。
 
 
 ![install-rootpasswd](http://2.bp.blogspot.com/-OJNxT-cfu5E/UsPnxprY-ZI/AAAAAAAADDc/x2WSpybUcnQ/s1600/fedora20-install-rootpasswd.png)
@@ -87,7 +87,7 @@ root 帳號是 Linux 系統中權力最大的帳號，又稱為超級使用者 (
 
 
 
-再來設定往後使用 fedora 時要登入的一般使用者帳號，請點按「用戶建立」。
+再來設定往後使用 Fedora 時要登入的一般使用者帳號，請點按「用戶建立」。
 
 
 ![install-usercreation2](http://3.bp.blogspot.com/-3AKoTkapASg/UsPnyQY3_TI/AAAAAAAADD0/uQdlT9C98Nk/s1600/fedora20-install-usercreation2.png)
@@ -127,7 +127,7 @@ root 帳號是 Linux 系統中權力最大的帳號，又稱為超級使用者 (
 ![install-finish](http://2.bp.blogspot.com/-G81VqvmHBzg/UsPnwiS7wjI/AAAAAAAADDU/nf0m5BWpRDc/s1600/fedora20-install-finish.png)
 
 
-安裝完成，點按「退出」鈕離開安裝程式，接著重新開機就能進入 fedora 20 的世界中囉！
+安裝完成，點按「退出」鈕離開安裝程式，接著重新開機就能進入 Fedora 20 的世界中囉！
 
 
 ![live-restart](http://3.bp.blogspot.com/-YF3vhRYr8c8/UsPn0RFM6_I/AAAAAAAADEc/g-ZruupX4a4/s1600/fedora20-live-restart.png)

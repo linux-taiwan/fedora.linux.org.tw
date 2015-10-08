@@ -21,7 +21,7 @@ permalink: /guide/step-4/
 ![gnomesetup1](http://1.bp.blogspot.com/-CQfUPSn9dQg/UsPntwEgOuI/AAAAAAAADCI/yshVyWDJrhs/s1600/fedora20-gnomesetup1.png)
 
 
-初次登入時，Gnome 會帶你走過初始設定，首先選取界面語言。由於安裝時我們採用中文介面安裝，因此 fedora 會先幫我們選好漢語 (臺灣) 這個語言，只要往下拉動捲軸就能看到。
+初次登入時，Gnome 會帶你走過初始設定，首先選取界面語言。由於安裝時我們採用中文介面安裝，因此 Fedora 會先幫我們選好漢語 (臺灣) 這個語言，只要往下拉動捲軸就能看到。
 
 
 ![gnomesetup2](http://3.bp.blogspot.com/-td_oJCizmt0/UsPnuasz5GI/AAAAAAAADCM/pFOvGc9QS30/s1600/fedora20-gnomesetup2.png)
