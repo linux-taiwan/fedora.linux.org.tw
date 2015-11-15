@@ -4,6 +4,11 @@ title: 社群
 permalink: /community/
 ---
 
+##我們是誰##
+Fedora 臺灣社群，即 Fedora Taiwan，是一群熱愛 Fedora 與自由軟體的朋友。
+
+我們的宗旨，在於透過線上、線下的行動和活動聚會，推動 Fedora 專案在臺灣的發展，並擔當與 Fedora 專案接軌的橋樑。我們的核心觀念是開放、透明、英才領導，所以我們的預算與財務報告也都將公開給大眾瞭解。
+
 ## Fedora 台灣論壇
 我們最近新開了一個專屬於 Fedora 的台灣論壇，無論是你遇到了什麼問題，或是有什麼新奇的發現，
 都可以來這個論壇與大家分享、討論！
@@ -18,6 +23,18 @@ Fedora 台灣社群常常會舉辦活動
 這裡是我們的 kktix 網址：
 [http://fedora-tw.kktix.cc/](http://fedora-tw.kktix.cc/)
 
+
+## Telegram 聊天室
+基本上這個聊天室隨時都有人在，有什麼希望大家趕快回應的問題可以直接加入這個群組問大家！
+
+### 加入方式
+
+- 如果是用手機的話就先安裝 telegram 應用程式，再點下面的網址。
+- 如果是用電腦的話，可以用瀏覽器先登入 [Telegram web 版](https://web.telegram.org/)，再點下面的網址。
+
+[https://telegram.me/joinchat/BGbpBwIdS8gSkbxan-Lvmw](https://telegram.me/joinchat/BGbpBwIdS8gSkbxan-Lvmw)
+
+順帶一提 telegram 也有貼圖功能唷！（幫宣傳一下隔壁棚的[小莎貼圖](https://moztw.org/foxmosa/#foxmosa-stickers) :P
 
 ## IRC 聊天室
 
