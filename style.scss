@@ -37,21 +37,10 @@ body > header {
 #header {
 	position: relative;
 	h1 {
-		font-family: 'Comfortaa', sans-sefif;
-		color: $primary-color;
-		line-height: 36px;
-		font-size: 1em;
 		margin: 0;
-		text-transform: uppercase;
-
-		&:before {
-			content: '';
-			display: inline-block;
-			background-image: url('{{ site.baseurl }}/images/logo.svg');
-			background-size: 36px 36px;
-			width: 36px;
-			height: 36px;
-			margin-right: .3em;
+		img {
+			margin: 4px 0 3px;
+			height: 30px;
 			vertical-align: top;
 		}
 	}
