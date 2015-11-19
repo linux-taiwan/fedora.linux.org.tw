@@ -28,7 +28,7 @@ permalink: /donate/
 
 ##捐款方式##
 * ATM 轉帳：請將捐款轉帳至國泰世華銀行 (代碼 013) 帳號：045039021351
-* KKTIX 線上轉帳：請前往 KKTIX 平臺之《Fedora 臺灣社群募款活動》網頁進行捐款：http://slat.kktix.cc/events/fedora2015
+* KKTIX 線上轉帳：請前往 KKTIX 平臺之《Fedora 臺灣社群募款活動》網頁進行捐款：<http://slat.kktix.cc/events/fedora2015>
 
 ###手續費用說明###
 經由 ATM 轉帳之捐款，協會將會保留 5% 做為行政管理費，其餘 95% 用於社群。
