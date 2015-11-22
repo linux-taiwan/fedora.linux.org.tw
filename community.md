@@ -48,16 +48,18 @@ Fedora 台灣社群常常會舉辦活動
 
 ## Fedora Wiki 編輯
 
-請參考 [這篇文章](https://fedoraproject.org/wiki/Help:Editing/zh-tw)。
+你可以來幫忙完善我們的 Fedora 百科，讓其他人更了解 Fedora，
+想知道更多可以參考 [這篇文章](https://fedoraproject.org/wiki/Help:Editing/zh-tw)，裡面主要包含三個部份：獲得編輯權限，
+基本的維基百科編輯，和更進一步的編輯。
 
 
 ## 臭蟲回報
-
-請參考 [這篇文章](https://fedoraproject.org/wiki/L10N/zh-tw#.E8.87.AD.E8.9F.B2.E5.9B.9E.E5.A0.B1.E3.80.81.E6.B8.AC.E8.A9.A6.E3.80.81.E5.93.81.E8.B3.AA.E4.BF.9D.E8.AD.89.E7.AD.89)。
+在回報臭蟲之前，記得先來看看有沒有人提交過這個臭蟲了。Fedora 是使用 Bugzilla 作為臭蟲回報系統，
+想獲得更多有用的資訊，你可以請參考 [這篇文章](https://fedoraproject.org/wiki/L10N/zh-tw#.E8.87.AD.E8.9F.B2.E5.9B.9E.E5.A0.B1.E3.80.81.E6.B8.AC.E8.A9.A6.E3.80.81.E5.93.81.E8.B3.AA.E4.BF.9D.E8.AD.89.E7.AD.89)。
 
 ## Zanata 翻譯
 
-請參考 [這篇文章](https://fedoraproject.org/wiki/L10N/Translate_on_Zanata)。
+在地化讓更多台灣人不用因為不懂英文而放棄 Fedora，幫助全世界就從幫助身邊的人開始。可以參考 [這篇文章](https://fedoraproject.org/wiki/L10N/Translate_on_Zanata) 來獲得更多資訊。
 
 ## 成為 Fedora 大使
 
