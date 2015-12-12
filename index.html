@@ -21,8 +21,12 @@ layout: default
 	不是只有 Fedora 作業系統是由自由軟體構成而已，實際上我們社群所架設的網站也都使用自由軟體構成。
 </p>
 
-<h2>社群動態</h2>
-<ul id="posts"></ul>
+<h2>Facebook 社群動態</h2>
+<ul id="fb_posts"></ul>
+
+<h2>論壇動態</h2>
+<ul id="forum_posts"></ul>
+
 <script>
 	fetch('https://graph.facebook.com/v2.3/543559052337419/feed?access_token=107244996094808|hrs5uGNHXE0K26ch0Z5wEW-_4Lg').then(function(response) {
 		return response.json();
@@ -62,6 +66,30 @@ layout: default
 		return "<p>擷取社團貼文失敗，請稍後重試！</p>";
 	})
 	.then(function (content) {
-		document.getElementById('posts').innerHTML += content;
+		document.getElementById('fb_posts').innerHTML += content;
 	});
+
+	fetch('https://fedora-tw.org/latest.json').then((res) => res.json())
+	.then(function(info) {
+		return info.topic_list.topics;
+	})
+	.then(function(posts) {
+		var content = '';
+		posts.forEach(function(post) {
+
+			content += `<li>
+					<a href="https://fedora-tw.org/t/${post.slug}/${post.id} ">${post.title}</a>
+			</li>
+			`;
+		});
+		return content;
+	})
+	.catch(function(err) {
+		console.error(err);
+		return "<p>擷取社團貼文失敗，請稍後重試！</p>";
+	})
+	.then(function (content) {
+		document.getElementById('forum_posts').innerHTML += content;
+	});
+
 </script>
