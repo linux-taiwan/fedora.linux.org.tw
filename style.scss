@@ -163,29 +163,52 @@ main {
 	}
 }
 
-#fb_posts, #forum_posts {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	li {
-		margin: 1em 0em;
-		padding: 1em;
-		display: flex;
-		align-items: flex-start;
-		border-bottom: 3px dashed lighten($primary-color, 30%);
-		.profilePhoto {
-			margin-right: 1em;
-		}
-		a {
-			text-decoration: none;
-			color: inherit;
-		}
-		p {
-			margin-top: 0;
-			padding: 0;
-			flex: 1;
-			line-height: 1.5em;
-			word-break: break-all;
+.post_wrapper {
+	display: inline-block;
+	margin: 0 1.25%;
+	width: 45%;
+	vertical-align: top;
+
+	#fb_posts, #forum_posts {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		li {
+			margin: 1em 0em;
+			padding: 1em;
+			display: flex;
+			align-items: flex-start;
+			border-bottom: 3px dashed lighten($primary-color, 30%);
+			.profilePhoto {
+				margin-right: 1em;
+			}
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
+			p {
+				margin-top: 0;
+				padding: 0;
+				flex: 1;
+				line-height: 1.5em;
+				word-break: break-all;
+			}
+			h4 {
+				font-weight: 400;
+			}
+			time {
+				display: inline-block;
+				margin-right: 1rem;
+				color: #888;
+			}
+			.label {
+				display: inline-block;
+				margin: 0 1rem 1rem 0;
+				padding: 1px .5rem;
+				color: #fff;
+				border-radius: 5px;
+				box-shadow: 5px 5px 0px #CCC;
+			}
 		}
 	}
 }

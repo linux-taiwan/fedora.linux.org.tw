@@ -20,12 +20,15 @@ layout: default
 	我們相信自由軟體的價值，並且為保護、提倡每個人都能使用並再次散布的解決方案而奮戰。
 	不是只有 Fedora 作業系統是由自由軟體構成而已，實際上我們社群所架設的網站也都使用自由軟體構成。
 </p>
+<div class="post_wrapper">
+	<h2>Facebook 社群動態</h2>
+	<ul id="fb_posts"></ul>
+</div>
 
-<h2>Facebook 社群動態</h2>
-<ul id="fb_posts"></ul>
-
-<h2>論壇動態</h2>
-<ul id="forum_posts"></ul>
+<div class="post_wrapper">
+	<h2>論壇動態</h2>
+	<ul id="forum_posts"></ul>
+</div>
 
 <script>
 	fetch('https://graph.facebook.com/v2.3/543559052337419/feed?access_token=107244996094808|hrs5uGNHXE0K26ch0Z5wEW-_4Lg').then(function(response) {
@@ -36,7 +39,7 @@ layout: default
 		posts.data.forEach(function(post, index, array) {
 
 			content += `<li>
-				<img src="https://graph.facebook.com/${post.from.id}/picture" alt="${post.from.name}" class="profilePhoto" /><p>`
+				<img src="https://graph.facebook.com/${post.from.id}/picture" alt="${post.from.name}" class="profilePhoto" height="50" width="50" /><p>`
 
 			var before = false;
 			if(post.message) {
@@ -75,12 +78,17 @@ layout: default
 	})
 	.then(function(posts) {
 		var content = '';
+		var category = [ '', '', '社群事務', '', '一般討論', '社群活動', '心得分享', '新聞交流' ];
+		var color = [ '', '', '#808281', '', '#0E76BD', '#F1592A', '#3AB54A', '#92278F'];
 		posts.forEach(function(post) {
+			content += `<li><img src="https://fedora-tw.org/user_avatar/fedora-tw.org/${post.last_poster_username}/120/1.png" alt="${post.last_poster_username}" class="profilePhoto" height="50" width="50" />
+				<a href="https://fedora-tw.org/t/${post.slug}/${post.id} ">`;
 
-			content += `<li>
-					<a href="https://fedora-tw.org/t/${post.slug}/${post.id} ">${post.title}</a>
-			</li>
-			`;
+			if(color[post.category_id - 1] !=- '' && category[post.category_id - 1] !== '')
+				content += `<div class="label" style="background: ${color[post.category_id - 1]}">${category[post.category_id - 1]}</div>`;
+
+			content += `<time>${new Date(post.last_posted_at).toLocaleString()}</time>
+			<h4>${post.title}</h4></a></li>`;
 		});
 		return content;
 	})
