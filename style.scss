@@ -179,6 +179,7 @@ main {
 			display: flex;
 			align-items: flex-start;
 			border-bottom: 3px dashed lighten($primary-color, 30%);
+			word-break: break-all;
 			.profilePhoto {
 				margin-right: 1em;
 			}

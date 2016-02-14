@@ -2,6 +2,14 @@
 	display: none;
 }
 
+@media screen and (max-width: 850px) {
+	.post_wrapper {
+		display: block;
+		margin: 0%;
+		width: 100%;
+	}
+}
+
 @media screen and (min-width: 506px) {
 	nav > label  {
 	    display: none;
@@ -39,7 +47,7 @@
 
 		ul#navigation {
 			position: absolute;
-			right: -100%;
+			left: -100%;
 	        display: block;
 			width: 100%;
 			padding: 0 0 .7em;
@@ -65,7 +73,7 @@
 			~ label img {
 			}
 			~ ul#navigation {
-				right: 0;
+				left: 0;
 		    }
 		}
 
