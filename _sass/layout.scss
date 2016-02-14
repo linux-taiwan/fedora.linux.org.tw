@@ -2,6 +2,14 @@
 	display: none;
 }
 
+@media screen and (max-width: 850px) {
+	.post_wrapper {
+		display: block;
+		margin: 0%;
+		width: 100%;
+	}
+}
+
 @media screen and (min-width: 506px) {
 	nav > label  {
 	    display: none;
