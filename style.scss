@@ -1,0 +1,345 @@
+---
+---
+
+@import "variable";
+
+body {
+	margin: 0;
+	background-color: #E6E6E6;
+	color: #333;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+code {
+	display: inline-block;
+	color: $primary-color;
+	background-color: #F7F7F9;
+	border: 1px solid #E1E1E8;
+	overflow: auto;
+	vertical-align: top;
+	font-family: 'Monaco','Menlo','Consolas','Courier New','monospace';
+	font-size: .75em;
+	border-radius: 3px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 1em;
+}
+
+body > header {
+	background-color: #fff;
+}
+
+#header {
+	position: relative;
+	h1 {
+		margin: 0;
+		img {
+			margin: 4px 0 3px;
+			height: 30px;
+			vertical-align: top;
+		}
+	}
+	.social {
+		position: absolute;
+		top: 6px;
+		right: 6px;
+		line-height: 36px;
+		a {
+			width: 32px;
+			height: 36px;
+			display: inline-block;
+			overflow: hidden;
+			color: #fff;
+			text-decoration: none;
+			opacity: 0.5;
+			margin-left: -4px;
+		}
+		a:hover {
+			opacity: 1;
+		}
+		a::before {
+			display: inline-block;
+			height: 32px;
+			width: 32px;
+			content: '';
+			background-size: 24px 24px;
+			background-repeat: no-repeat;
+		}
+		a.facebook::before {
+			background-image: url(images/facebook.png);
+		}
+		a.plus::before {
+			background-image: url(images/google-plus.png);
+		}
+	}
+}
+
+#header + nav {
+	background-color: #416DAC;
+	background-image: linear-gradient(to bottom, #416DAC, #1E4A88);
+	ul {
+		list-style-type: none;
+		padding: 0;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+	}
+	li {
+		display: inline-block;
+		margin: 0 .6em;
+		min-width: 100px;
+	}
+	a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #ececec;
+		text-shadow: .5px .5px .5px #222;
+	}
+	a:hover {
+		color: #fcf7d5;
+		text-shadow: 1.5px 1.5px black;
+	}
+}
+
+main {
+	background-color: #fff;
+	padding: 1em;
+	flex: 1;
+	a {
+		color: #1E4A88;
+		transition-duration: .5s;
+		&:hover {
+			color: $primary-color;
+		}
+	}
+	article {
+		img {
+			max-width: 100%;
+		}
+		code {
+			margin: .5em 0 1em;
+	    padding: 2px 4px;
+		}
+
+		.switch {
+			text-align: center;
+
+				> div{
+				display: inline-block;
+				margin: 0 auto;
+				padding: 4px;
+				text-align: center;
+				background-color: #fff;
+				border: 1px solid $primary-color;
+
+				> div {
+					display: inline-block;
+					width: 25rem;
+
+					a {
+						display: block;
+						color: #fff;
+						text-decoration: none;
+						padding: .5rem 2rem;
+						background-color: $primary-color;
+						border: 3px solid $primary-color;
+
+						&:hover {
+							color: $primary-color;
+							background-color: #fff;
+						}
+					}
+
+					&.last {}
+					&.next {}
+				}
+			}
+		}
+	}
+}
+
+.post_wrapper {
+	display: inline-block;
+	margin: 0 1.25%;
+	width: 45%;
+	vertical-align: top;
+
+	#fb_posts, #forum_posts {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		li {
+			margin: 1em 0em;
+			padding: 1em;
+			display: flex;
+			align-items: flex-start;
+			border-bottom: 3px dashed lighten($primary-color, 30%);
+			word-break: break-all;
+			.profilePhoto {
+				margin-right: 1em;
+			}
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
+			p {
+				margin-top: 0;
+				padding: 0;
+				flex: 1;
+				line-height: 1.5em;
+				word-break: break-all;
+			}
+			h4 {
+				font-weight: 400;
+			}
+			time {
+				display: inline-block;
+				margin-right: 1rem;
+				color: #888;
+			}
+			.label {
+				display: inline-block;
+				margin: 0 1rem 1rem 0;
+				padding: 1px .5rem;
+				color: #fff;
+				border-radius: 5px;
+				box-shadow: 5px 5px 0px #CCC;
+			}
+		}
+	}
+}
+
+#content {
+	min-height: 150px;
+
+	h2 {
+		padding-bottom: .5rem;
+		border-bottom: 1px solid #343434;
+
+		&:after {
+			display: inline-block;
+			content: "";
+			width: .5rem;
+			height: .5rem;
+			background-image: url('{{ site.baseurl }}/images/fedora-hat.svg');
+			background-size: 36px 36px;
+			width: 36px;
+			height: 36px;
+			margin-right: .3em;
+			filter: opacity(15%);
+		}
+	}
+
+	h3 {
+		display: inline-block;
+		margin: 0;
+		padding: .35rem;
+		background-color: $primary-color;
+		color: #fff;
+		border-radius: .25rem;
+		box-shadow: 5px 5px 0 #ccc;
+	}
+
+	p {
+		margin-bottom: 2rem;
+		padding-right: 2rem;
+		line-height: 1.5rem;
+	}
+
+	ul, ol {
+		margin-bottom: 2rem;
+
+		ul {
+			margin-bottom: .5rem;
+		}
+
+		ol {
+			@extend ul;
+			list-style-type: lower-alpha;
+		}
+
+		li {
+			line-height: 1.5rem;
+		}
+	}
+}
+
+#members {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	li {
+		display: flex;
+		margin: 2em 0;
+	}
+	a {
+		display: block;
+		width: 100px;
+		min-width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		margin-right: 1em;
+		background-color: $primary-color;
+		position: relative;
+		&::before {
+			content: '';
+			display: block;
+			width: 50px;
+			height: 50px;
+			background-color: $primary-color;
+			position: absolute;
+			z-index: 1;
+			bottom: 0;
+			border-bottom-left-radius: 10px;
+		}
+	}
+	img {
+		display: inline-block;
+		border-radius: 50%;
+		position: absolute;
+		z-index: 2;
+		margin: 10px;
+	}
+	.name {
+		display: block;
+		margin-bottom: 1em;
+		font-weight: bold;
+		color: $primary-color;
+	}
+}
+
+
+footer {
+	font-size: small;
+	color: #808080;
+	padding-bottom: 1em;
+	p {
+		margin: .5em 0;
+	}
+	a {
+		color: #3771c8;
+		text-decoration: none;
+	}
+	.license {
+		float: right;
+		opacity: 0.5;
+	}
+	&:before {
+		content: 'This site is not affiliated with or endorsed by the Fedora Project';
+		display: block;
+		height: 20px;
+		clear: both;
+		background-color: #4870bc;
+		color: #fff;
+		text-align: center;
+		border-bottom: 3px solid #ccc;
+		border-top: 1px solid #666;
+	}
+}
+
+@import "layout";
