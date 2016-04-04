@@ -5,11 +5,13 @@ permalink: /community/
 ---
 
 ## 我們是誰
+
 Fedora 臺灣社群，即 Fedora Taiwan，是一群熱愛 Fedora 與自由軟體的朋友。
 
 我們的宗旨，在於透過線上、線下的行動和活動聚會，推動 Fedora 專案在臺灣的發展，並擔當與 Fedora 專案接軌的橋樑。我們的核心觀念是開放、透明、英才領導，所以我們的預算與財務報告也都將公開給大眾瞭解。
 
 ## Fedora 台灣論壇
+
 我們最近新開了一個專屬於 Fedora 的台灣論壇，無論是你遇到了什麼問題，或是有什麼新奇的發現，
 都可以來這個論壇與大家分享、討論！
 
@@ -25,6 +27,7 @@ Fedora 台灣社群常常會舉辦活動
 
 
 ## Telegram 聊天室
+
 基本上這個聊天室隨時都有人在，有什麼希望大家趕快回應的問題可以直接加入這個群組問大家！
 
 ### 加入方式
@@ -54,6 +57,7 @@ Fedora 台灣社群常常會舉辦活動
 
 
 ## 臭蟲回報
+
 在回報臭蟲之前，記得先來看看有沒有人提交過這個臭蟲了。Fedora 是使用 Bugzilla 作為臭蟲回報系統，
 想獲得更多有用的資訊，你可以請參考 [這篇文章](https://fedoraproject.org/wiki/L10N/zh-tw#.E8.87.AD.E8.9F.B2.E5.9B.9E.E5.A0.B1.E3.80.81.E6.B8.AC.E8.A9.A6.E3.80.81.E5.93.81.E8.B3.AA.E4.BF.9D.E8.AD.89.E7.AD.89)。
 
@@ -66,7 +70,7 @@ Fedora 台灣社群常常會舉辦活動
 你知道什麼是 Fedora 大使嗎？你想成為 Fedora 大使嗎？
 
 - [什麼是 Fedora 大使？可以吃嗎？](https://fedoraproject.org/wiki/Ambassadors/zh-tw)
-- [我想成為校園大使，我該怎麼做？](https://fedoraproject.org/wiki/Ambassadors_Join_start/zh-tw)
+- [我想成為大使，我該怎麼做？](https://fedoraproject.org/wiki/Ambassadors_Join_start/zh-tw)
 
 ## 軟體打包
 
