@@ -32,7 +32,7 @@ Fedora 台灣社群常常會舉辦活動
 - 如果是用手機的話就先安裝 telegram 應用程式，再點下面的網址。
 - 如果是用電腦的話，可以用瀏覽器先登入 [Telegram web 版](https://web.telegram.org/)，再點下面的網址。
 
-[https://telegram.me/joinchat/BGbpBwIdS8gSkbxan-Lvmw](https://telegram.me/joinchat/BGbpBwIdS8gSkbxan-Lvmw)
+[https://telegram.me/fedora_tw](https://telegram.me/fedora_tw)
 
 順帶一提 telegram 也有貼圖功能唷！（幫宣傳一下隔壁棚的[小莎貼圖](https://moztw.org/foxmosa/#foxmosa-stickers) :P
 
