@@ -1,5 +1,5 @@
-version: 25 # latest version of fedora
-release_date: 2016-11-22
+version: 26 # latest version of fedora
+release_date: 2017-07-11
 defaults:
   -
     scope:
