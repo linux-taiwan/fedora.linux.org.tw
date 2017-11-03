@@ -25,3 +25,29 @@ Fedora 臺灣社群，即 Fedora Taiwan，是一群熱愛 Fedora 與自由軟體
 
 ### 第一 First
 **第一** 代表的是我們專注於創新。我們不希望他人替我們擔下所有艱辛困難的工作；所以我們直接在我們的 Fedora 散布版中提供最新版的穩定、可靠、好用、又強大的自由軟體給大眾使用。若你在任何時間點檢視最新的 Fedora 平臺，就會發現這套作業系統展現出未來的走向，因為它不斷從許多家用桌面使用者、以及企業商業客戶中汲取各種經驗。我們的[快速發行週期](https://fedoraproject.org/wiki/Releases)是推動我們創新的重要因素。我們也知道 Linux 生態系統中有些地方需要長期穩定版，目前已有許多社群導向（如 CentOS）或商業導向（如 RHEL）的 Linux 散布版可以滿足這類需求。然而，主導 Fedora 專案的目標是要推動自由軟體向前邁進，因此 Fedora 自身追求的策略的是要在技術、合作、社群打造等層面與過程中維持前進的動力。Fedora 永遠以未來、第一為目標。
+
+## 社群成員
+
+<ul id="members">
+    <li>
+    	<a href="http://breezymove.blogspot.tw/"><img src="http://www.gravatar.com/avatar/6a06d23deec5e9bfc3433fd7934eb19b?s=80" alt="zerng07" /></a>
+    	<p>
+    		<span class="name">Cheng-Chia Tseng</span>
+    		Fedora Ambassador，自由軟體翻譯者。
+    	</p>
+    </li>
+    <li>
+    	<a href="http://blog.freedomknight.me/"><img src="http://www.gravatar.com/avatar/cc6b0abf49e4efad3b8b7dba0ff588a9?s=80" alt="FreedomKnight" /></a>
+    	<p>
+    		<span class="name">FreedomKnight</span>
+    		Fedora Ambassador。
+    	</p>
+    </li>
+    <li>
+    	<a href="http://kidwm.net/"><img src="http://www.gravatar.com/avatar/75307af344414a724528f5ba3920d01c?s=80" alt="kidwm" /></a>
+    	<p>
+    		<span class="name">WM</span>
+    		網站維護人。
+    	</p>
+    </li>
+</ul>

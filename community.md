@@ -5,7 +5,7 @@ permalink: /community/
 ---
 
 ## Fedora 臺灣論壇
-我們最近新開了一個專屬於 Fedora 的臺灣論壇，無論是你遇到了什麼問題，或是有什麼新奇的發現，
+我們開了專屬於 Fedora 的臺灣論壇，無論是你遇到了什麼問題，或是有什麼新奇的發現，
 都可以來這個論壇與大家分享、討論！
 
 論壇網址：[https://fedora-tw.org/](https://fedora-tw.org/)
@@ -13,7 +13,7 @@ permalink: /community/
 ## 來問去答
 Fedora 專案官方最近開設了 Ask Fedora 問答平臺的中文版，網站內的問題和答案全部都由社群提供，官方僅提供平臺給大家利用，不對任何內容背書。
 
-[https://ask.fedoraproject.org/zh-tw/questions/](Ask Fedora 中文版)
+[Ask Fedora 中文版](https://ask.fedoraproject.org/zh-tw/questions/)
 
 ## Telegram 聊天室
 基本上這個聊天室隨時都有人在，有什麼希望大家趕快回應的問題可以直接加入這個群組問大家！
@@ -38,7 +38,7 @@ Fedora 台灣社群常常會舉辦活動
 ## 郵遞列表論壇
 自由軟體界最習慣的參與方式就是郵遞論壇了。在「訂閱（Subscribe）」之後，各位就可以利用這個郵件信箱，和所有訂閱此郵遞列表的人一起討論與分享資訊。簡單說，可以將之想像成一個共同的討論用電子郵件地址，如果有想和大家分享或討論的，就寄信到這個地址！所有訂閱的人都會收到，並且都可以直接將意見想法再以同個郵件地址回覆。注意：所有寄信的內容（包括寄信者的電子郵件位址）都會公開封存，所以請不要分享私人隱私資料！
 
-[https://lists.fedoraproject.org/admin/lists/taiwan-community.lists.fedoraproject.org/](郵遞列表訂閱處)
+[郵遞列表訂閱處](https://lists.fedoraproject.org/admin/lists/taiwan-community.lists.fedoraproject.org/)
 
 ## IRC 聊天室
 
@@ -91,30 +91,3 @@ Fedora 台灣社群常常會舉辦活動
 
 - [關於 Fedora Badge](https://fedoraproject.org/wiki/Open_Badges)
 - [Fedora Badge 主頁](https://badges.fedoraproject.org/)
-
-
-## 社群成員
-
-<ul id="members">
-    <li>
-    	<a href="http://breezymove.blogspot.tw/"><img src="http://www.gravatar.com/avatar/6a06d23deec5e9bfc3433fd7934eb19b?s=80" alt="zerng07" /></a>
-    	<p>
-    		<span class="name">Cheng-Chia Tseng</span>
-    		Fedora Ambassador，自由軟體翻譯者。
-    	</p>
-    </li>
-    <li>
-    	<a href="http://blog.freedomknight.me/"><img src="http://www.gravatar.com/avatar/cc6b0abf49e4efad3b8b7dba0ff588a9?s=80" alt="FreedomKnight" /></a>
-    	<p>
-    		<span class="name">FreedomKnight</span>
-    		Fedora Ambassador。
-    	</p>
-    </li>
-    <li>
-    	<a href="http://kidwm.net/"><img src="http://www.gravatar.com/avatar/75307af344414a724528f5ba3920d01c?s=80" alt="kidwm" /></a>
-    	<p>
-    		<span class="name">WM</span>
-    		網站維護人。
-    	</p>
-    </li>
-</ul>
