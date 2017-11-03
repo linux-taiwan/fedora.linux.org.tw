@@ -4,11 +4,11 @@ title: 社群
 permalink: /community/
 ---
 
-## Fedora 臺灣論壇
+## 臺灣論壇
 我們開了專屬於 Fedora 的臺灣論壇，無論是你遇到了什麼問題，或是有什麼新奇的發現，
 都可以來這個論壇與大家分享、討論！
 
-論壇網址：[https://fedora-tw.org/](https://fedora-tw.org/)
+[Fedora 中文論壇](https://fedora-tw.org/)
 
 ## 來問去答
 Fedora 專案官方最近開設了 Ask Fedora 問答平臺的中文版，網站內的問題和答案全部都由社群提供，官方僅提供平臺給大家利用，不對任何內容背書。
@@ -23,7 +23,7 @@ Fedora 專案官方最近開設了 Ask Fedora 問答平臺的中文版，網站�
 - 如果是用手機的話就先安裝 telegram 應用程式，再點下面的網址。
 - 如果是用電腦的話，可以用瀏覽器先登入 [Telegram web 版](https://web.telegram.org/)，再點下面的網址。
 
-[https://telegram.me/fedora_tw](https://telegram.me/fedora_tw)
+[加入 fedora_tw 頻道](https://telegram.me/fedora_tw)
 
 順帶一提 telegram 也有貼圖功能唷！（幫宣傳一下隔壁棚的[小莎貼圖](https://moztw.org/foxmosa/#foxmosa-stickers) :P
 
@@ -32,8 +32,7 @@ Fedora 專案官方最近開設了 Ask Fedora 問答平臺的中文版，網站�
 Fedora 台灣社群常常會舉辦活動
 而我們的活動通常會以 kktix 作為報名平臺。
 
-這裡是我們的 kktix 網址：
-[http://fedora-tw.kktix.cc/](http://fedora-tw.kktix.cc/)
+[我們的 kktix 網址](http://fedora-tw.kktix.cc/)
 
 ## 郵遞列表論壇
 自由軟體界最習慣的參與方式就是郵遞論壇了。在「訂閱（Subscribe）」之後，各位就可以利用這個郵件信箱，和所有訂閱此郵遞列表的人一起討論與分享資訊。簡單說，可以將之想像成一個共同的討論用電子郵件地址，如果有想和大家分享或討論的，就寄信到這個地址！所有訂閱的人都會收到，並且都可以直接將意見想法再以同個郵件地址回覆。注意：所有寄信的內容（包括寄信者的電子郵件位址）都會公開封存，所以請不要分享私人隱私資料！
