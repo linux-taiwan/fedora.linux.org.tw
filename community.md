@@ -4,25 +4,16 @@ title: 社群
 permalink: /community/
 ---
 
-## 我們是誰
-Fedora 臺灣社群，即 Fedora Taiwan，是一群熱愛 Fedora 與自由軟體的朋友。
-
-我們的宗旨，在於透過線上、線下的行動和活動聚會，推動 Fedora 專案在臺灣的發展，並擔當與 Fedora 專案接軌的橋樑。我們的核心觀念是開放、透明、英才領導，所以我們的預算與財務報告也都將公開給大眾瞭解。
-
-## Fedora 台灣論壇
-我們最近新開了一個專屬於 Fedora 的台灣論壇，無論是你遇到了什麼問題，或是有什麼新奇的發現，
+## Fedora 臺灣論壇
+我們最近新開了一個專屬於 Fedora 的臺灣論壇，無論是你遇到了什麼問題，或是有什麼新奇的發現，
 都可以來這個論壇與大家分享、討論！
 
 論壇網址：[https://fedora-tw.org/](https://fedora-tw.org/)
 
-## 實體聚會
+## 來問去答
+Fedora 專案官方最近開設了 Ask Fedora 問答平臺的中文版，網站內的問題和答案全部都由社群提供，官方僅提供平臺給大家利用，不對任何內容背書。
 
-Fedora 台灣社群常常會舉辦活動
-而我們的活動通常會以 kktix 作為報名平臺。
-
-這裡是我們的 kktix 網址：
-[http://fedora-tw.kktix.cc/](http://fedora-tw.kktix.cc/)
-
+[https://ask.fedoraproject.org/zh-tw/questions/](Ask Fedora 中文版)
 
 ## Telegram 聊天室
 基本上這個聊天室隨時都有人在，有什麼希望大家趕快回應的問題可以直接加入這個群組問大家！
@@ -36,6 +27,19 @@ Fedora 台灣社群常常會舉辦活動
 
 順帶一提 telegram 也有貼圖功能唷！（幫宣傳一下隔壁棚的[小莎貼圖](https://moztw.org/foxmosa/#foxmosa-stickers) :P
 
+## 實體聚會
+
+Fedora 台灣社群常常會舉辦活動
+而我們的活動通常會以 kktix 作為報名平臺。
+
+這裡是我們的 kktix 網址：
+[http://fedora-tw.kktix.cc/](http://fedora-tw.kktix.cc/)
+
+## 郵遞列表論壇
+自由軟體界最習慣的參與方式就是郵遞論壇了。在「訂閱（Subscribe）」之後，各位就可以利用這個郵件信箱，和所有訂閱此郵遞列表的人一起討論與分享資訊。簡單說，可以將之想像成一個共同的討論用電子郵件地址，如果有想和大家分享或討論的，就寄信到這個地址！所有訂閱的人都會收到，並且都可以直接將意見想法再以同個郵件地址回覆。注意：所有寄信的內容（包括寄信者的電子郵件位址）都會公開封存，所以請不要分享私人隱私資料！
+
+[https://lists.fedoraproject.org/admin/lists/taiwan-community.lists.fedoraproject.org/](郵遞列表訂閱處)
+
 ## IRC 聊天室
 
 關於 IRC 的介紹網路上其實非常多，但不得不承認，
@@ -44,7 +48,7 @@ Fedora 台灣社群常常會舉辦活動
 所以，請學習怎麼使用它吧！
 
 至於要如何開始學習… 你可以參考 g0v 的 [這篇文章](https://github.com/g0v/dev/wiki/如何使用-IRC)，
-只是要記得把 `#g0v.tw` 換成 `#fedora-tw` 嘿！
+只是要記得把 `#g0v.tw` 換成 `#fedora-tw` 嘿！ `#fedora-tw` 才是我們的頻道！
 
 ## Fedora Wiki 編輯
 

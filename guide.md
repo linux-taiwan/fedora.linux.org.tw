@@ -15,3 +15,6 @@ permalink: /guide/
 - [安裝後設定](/guide/config/)
 
 文章與圖片來自 [Cheng-Chia Tseng](http://breezymove.blogspot.tw/2014/01/fedora-20.html) 。
+
+## 推薦的 Linux 入門教學
+- [鳥哥的私房菜](http://linux.vbird.org/)
