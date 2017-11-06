@@ -84,8 +84,8 @@ Fedora 相信自由軟體的價值，並且為了保護、提倡人人都能使�
 	})
 	.then(function(posts) {
 		var content = '';
-		var category = [ '', '', '社群事務', '', '一般討論', '社群活動', '心得分享', '新聞交流' ];
-		var color = [ '', '', '#808281', '', '#0E76BD', '#F1592A', '#3AB54A', '#92278F'];
+		var category = [ '', '', '社群事務', '', '一般討論', '社群活動', '心得分享', '新聞交流', '協助參與' ];
+		var color = [ '', '', '#808281', '', '#0E76BD', '#F1592A', '#3AB54A', '#92278F', '#25AAE2'];
 		posts.forEach(function(post) {
 			content += `<li><img src="https://fedora-tw.org/user_avatar/fedora-tw.org/${post.last_poster_username}/120/1.png" alt="${post.last_poster_username}" class="profilePhoto" height="50" width="50" />
 				<a href="https://fedora-tw.org/t/${post.slug}/${post.id} ">`;
