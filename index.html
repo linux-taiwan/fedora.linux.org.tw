@@ -37,7 +37,7 @@ Fedora 相信自由軟體的價值，並且為了保護、提倡人人都能使�
 </div>
 
 <script>
-	fetch('https://graph.facebook.com/v2.3/543559052337419/feed?access_token=107244996094808|hrs5uGNHXE0K26ch0Z5wEW-_4Lg').then(function(response) {
+	fetch('https://graph.facebook.com/v2.3/543559052337419/feed?fields=from,message&access_token=107244996094808|hrs5uGNHXE0K26ch0Z5wEW-_4Lg').then(function(response) {
 		return response.json();
 	})
 	.then(function(posts) {
@@ -72,6 +72,7 @@ Fedora 相信自由軟體的價值，並且為了保護、提倡人人都能使�
 		return content;
 	})
 	.catch(function(err) {
+		console.error(err);
 		return "<p>擷取社團貼文失敗，請稍後重試！</p>";
 	})
 	.then(function (content) {
